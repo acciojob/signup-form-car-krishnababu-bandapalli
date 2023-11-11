@@ -19,7 +19,9 @@
 		<input type="radio" id="gender_f" name="gender">
         <label for="gender_f">Female</label> <br>
 		<label for="cars">Car Brands</label> <br>
-		<input type="select" id="cars" placeholder="--Please choose an option--" required> <br> 
+		<select id="cars" name="cars" required>
+			<option value="" disabled>--Please choose an option--</option>
+		</select> <br> 
 		<label for="age">Age</label> <br>
 		<input type="number" id="age" placeholder="Age" min="0" required> <br>
 		<label for="dob">DOB</label> <br>
